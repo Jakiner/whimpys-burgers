@@ -447,14 +447,11 @@ footer a {
 
 
 /* ABOUT PAGE */
-.about-wrapper {
-    max-width: 100%;
-    display:flex;
-    justify-content: center;
+.wrapper-about {
+    padding:0;
 }
 .about-container {
-    max-width:1000px;
-    height:100%;
+    width:100%;
     padding: 5rem;
     display:flex;
     flex-direction:column;
@@ -490,15 +487,6 @@ footer a {
     padding-bottom:2rem;
 }
 
-.about-box {
-    display:flex;
-    flex-direction:column;
-    width:40vw;
-    height:100%;
-    object-position:center;
-    object-fit:fill;
-}
-
 /* REVIEW SECTION */
 .review-header{
     font-size:25px;
@@ -526,7 +514,6 @@ footer a {
     align-items: center;
     background:url('../images/wall.jpg');
     width:800px;
-    height:100%;
     background-attachment:fixed;
 }
 
@@ -571,12 +558,6 @@ footer a {
     .french-fries {
         height:850px;
     }
-}
-
-@media(max-width:880px){
-    /* .hero{
-        padding:3rem;
-    } */
 }
 
 @media(max-width:780px){
@@ -639,6 +620,10 @@ footer a {
     .menu-btn {
         position:absolute;
         left:0;
+    }
+    .about-container {
+        padding-inline: 10px;
+
     }
 }
 
