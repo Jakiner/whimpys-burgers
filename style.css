@@ -63,7 +63,7 @@ header a {
 
 .social-media a {
     color:#555;
-    padding:1rem;
+    padding:.5rem;
 }
 
 .menu-btn {
@@ -163,7 +163,6 @@ header a {
     background-image:url('../images/burger.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position:center; */
     padding:5rem 70px;
     padding-right:2rem;
 }
@@ -504,7 +503,6 @@ footer a {
     justify-content:center;
     align-items:center;
     padding-top:100px;
-
 }
 
 .review-container {
@@ -513,7 +511,7 @@ footer a {
     justify-content:center;
     align-items: center;
     background:url('../images/wall.jpg');
-    width:800px;
+    width:100%;
     background-attachment:fixed;
 }
 
@@ -611,7 +609,7 @@ footer a {
         font-size: 50px;
     }
     footer a{
-        font-size:16px;
+        font-size:14px;
     }
     .review-box{
         width:100vw;
