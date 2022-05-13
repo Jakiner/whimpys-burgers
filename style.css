@@ -137,9 +137,11 @@ header a {
 /* HAMBURGER MENU BUTTON */
 .menu-header.open {
     display:flex;
+    justify-content:space-around;
     height:3rem;
     opacity:1;
     z-index:10;
+    padding:1em;
 }
 
 .menu-btn.open .menu-btn-burger {
@@ -400,7 +402,7 @@ footer {
     align-items:center;
     text-align:center;
     width:vw;
-    height:100px;
+    height:80px;
     background:rgb(191, 191, 191);
     padding-left:22%;
     padding-right:22%;
@@ -490,7 +492,6 @@ footer a {
 /* REVIEW SECTION */
 .review-header{
     font-size:25px;
-    margin-top:-3rem;
     padding-bottom:1rem;
     color:var(--secondary-color);
     font-weight:300px;
@@ -523,7 +524,6 @@ footer a {
     align-items:center;
     text-align:center;
     width:600px;
-    height:300px;
     color:#fff;
     z-index:1;
     padding:1rem;
